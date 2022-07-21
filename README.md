@@ -68,6 +68,8 @@ npm i -g nps
 ```
 - Make sure docker and docker-compose are
  installed. Refer to docs for your operating system.
+- Setup environment variables
+
 
 ### Install Dependencies
 Make sure you are at root of the project and just run 
