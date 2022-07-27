@@ -1,4 +1,5 @@
 # Turborepo (NestJS + Prisma + NextJS + Tailwind + Typescript + Jest) Starter
+_This `fullstack-turborepo-starter` repo is a fork from the original [`fullstack-turborepo-starter`](https://github.com/ejazahm3d/fullstack-turborepo-starter). It was split from the original to take the repo in a unique direction._  
 
 This is fullstack turborepo starter. It comes with the following features. 
 
@@ -15,25 +16,6 @@ This is fullstack turborepo starter. It comes with the following features.
 - ✅ Docker Integration 
 - ✅ Postgres Database 
 - ✅ Package scripts using NPS 
-
-## Pulling Upstream Changes
-This `fullstack-turborepo-starter` repo is a fork from the original [`fullstack-turborepo-starter`](https://github.com/ejazahm3d/fullstack-turborepo-starter). The unaltered upstream code lives in the [downstream/master](https://github.com/DeFiFoFum/fullstack-turborepo-starter/tree/downstream/master) branch. To pull in new updates to that branch run the following: 
-
-```bash
-git checkout downstream/master
-git fetch upstream
-git merge upstream/master
-```
-
-Now the new updates will be in the [downstream/master](https://github.com/DeFiFoFum/fullstack-turborepo-starter/tree/downstream/master) branch. These updates can then be merged into a feature branch off of `main` reconcile the updates.  
-
-```
-git checkout main
-git checkout -b feature/<feature-name>
-git merge downstream/master
-```
-
-This `feature` branch will allow a PR to be created with a diff to be able to easily view the updates being pulled in.
 
 ## What's inside?
 
